@@ -7,7 +7,8 @@ const displayMessage = function (message) {
 };
 
 const displayScore = function (score) {
-  document.querySelector(".score").textContent = score;
+  const selector = ".score";
+  document.querySelector(selector).textContent = score;
 };
 
 document.querySelector(".again").addEventListener("click", function () {
